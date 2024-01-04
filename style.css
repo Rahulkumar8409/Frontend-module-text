@@ -1,0 +1,422 @@
+.body{
+  font-family: Poppins;
+}
+.logo{
+  display: flex;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+.logo span{
+  color: #FFF;
+ font-size: 28px;
+  font-weight: 700;
+  line-height: 28px; /* 100% */
+  letter-spacing: -0.28px;
+  background-color: #F94A3D;
+  width: 21px;
+  height: 28px;
+}
+.logo p{
+  color: var(--Food-Delivery-Orange-Color, #F94A3D);
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; 
+letter-spacing: -0.3px;
+}
+.links ul li a{
+  color: var(--Food-Delivery-PG, #212244);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding-left: 27px;
+}
+.links ul{
+  list-style-type: none;
+  display: flex;
+
+}
+.leftbutton input{
+  fill: #FFF;
+  stroke-width: 1px;
+  stroke: rgba(105, 105, 123, 0.10);
+  filter: drop-shadow(0px 6px 30px rgba(0, 0, 0, 0.04));
+  padding-right: 10px;
+  
+}
+.leftbutton sup{
+  color: #FFF;
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 6.522px;
+height: 15.217px;
+border-radius: 40%;
+background-color: #F94A3D;
+}
+.leftbutton button{
+  width: 109px;
+height: 40px;
+border-radius: 10px;
+background: var(--Food-Delivery-Orange-Color, #F94A3D);
+}
+.heading{
+  color: var(--Food-Delivery-Orange-Color, #F94A3D);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 88.889% */
+}
+.heading-p{
+  color: #212244;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px; /* 116.667% */
+}
+.heading-p span{
+  color: var(--Food-Delivery-Orange-Color, #F94A3D);
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px;
+}
+.back{
+  border-radius: 1292px;
+background: rgba(249, 74, 61, 0.07);
+filter: blur(280px);
+}
+#section-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-p1{
+  color: var(--Food-Delivery-P, #69697B);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+.para-1 button{
+  color: var(--Food-Delivery-White-Grey, #F6F6F6);
+ 
+  font-size: 18px;
+ padding: 17px 31px;
+  font-weight: 500;
+  border-radius: 16px;
+background: #F94A3D;
+  letter-spacing: -0.18px;
+}
+.order{
+  display: flex;
+  justify-content: space-between;
+}
+#order-1{
+height: 400px;
+width: 300px;
+padding: 40px;
+
+
+
+}
+#order-1 img{
+  height: 200px;
+  width: 200px;
+}
+#order-1 h3{
+  color: var(--Food-Delivery-PG, #212244);
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 133.333% */
+}
+#order-1 h1{
+  color: var(--Food-Delivery-PG, #212244);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 58px; /* 120.833% */
+}
+#order-1 p{
+  color: var(--Food-Delivery-P, #69697B);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 31px; /* 172.222% */
+}
+.special img{
+  border-bottom-style: solid;
+  border-bottom-color:yellow;
+}
+.Recipes{
+  text-align: center;
+  color: var(--Food-Delivery-PG, #212244);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.link-1 ul a{
+  text-decoration: none;
+  padding-left: 39px;
+  color: var(--Food-Delivery-PG, #212244);
+ 
+}
+.link-1 ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.special-1{
+  color: var(--Food-Delivery-Orange-Color, #F94A3D);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.special-2 a{
+color: #F94A3D;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.item{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.item-1{
+align-items: center;
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+
+}
+.item-1 h4{
+  color: var(--Food-Delivery-PG, #212244);
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.item-1 div span{
+  color: var(--Food-Delivery-Orange-Color, #F94A3D);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.item-1 div{
+  color: var(--Food-Text-Color-2, #69697B);
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+.item-1 button{
+  padding: 13px;
+  border-radius: 10px;
+  color: var(--Food-Delivery-Orange-Color, #F94A3D);
+text-align: right;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+border: 1.5px solid var(--Food-Delivery-Orange-Color, #F94A3D);
+}
+#card-1{
+  width: 494.817px;
+height: 110.584px;
+flex-shrink: 0;
+align-items: center;
+margin: 40px;
+}
+.about-2{
+  padding-left:20px;
+  margin: 10px;
+}
+.about-2 h3{
+  color: var(--Food-Delivery-PG, #212244);
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.about-2 p{
+  color: var(--Food-Text-Color-2, #69697B);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.review{
+  display: flex;
+  background-color: #F8F8F8;
+  padding-top: 30px;
+ 
+}
+.review-pra{
+  padding-top: 40px;
+  display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+  
+}
+.review-pra h1{
+  color: var(--Food-Delivery-PG, #212244);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px; /* 125% */
+letter-spacing: 0.96px;
+
+}
+.review-pra span{
+  color: var(--Food-Delivery-Orange-Color, #F94A3D);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: 0.96px;
+
+}
+.review-pra h2{
+  color: var(--Food-Delivery-PG, #212244);
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px; /* 150% */
+padding-bottom: 20px;
+}
+.review-pra p{
+  color: var(--Food-Text-Color-2, #69697B);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 20px;
+}
+.box{
+  width: 1340px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 40px;
+background: var(--Food-Delivery-Orange-Color, #F94A3D);
+overflow: hidden;
+margin-left: 100px;
+}
+.box-1{
+  width: 604px;
+height: 602px;
+flex-shrink: 0;
+border-radius: 604px;
+background: #E83B2E;
+}
+
+.inside-box{
+  position: absolute;
+  top:  2827px;
+  right: 150px;
+  width: 536px;
+}
+.inside-box h1{
+  color: #FFF;
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 47px; /* 123.684% */
+letter-spacing: 0.76px;
+}
+.inside-box p{
+  color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+footer{
+  padding: 30px;
+  background: var(--Food-Delivery-Gradient-BG, linear-gradient(285deg, #FDF0F3 2.04%, rgba(255, 253, 242, 0.50) 50.97%, #FDEEF3 100.85%));
+}
+footer p{
+color: var(--Food-Delivery-P, #69697B);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: -0.16px;
+width: 289px;
+}
+.one-1{
+padding-bottom: 40px;
+list-style-type: none;
+}
+.one-1 a {
+  color: #2E2E2E;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 111.111% */
+letter-spacing: -0.18px;
+text-decoration: none;
+}
+.one-2 a{
+  color: var(--Food-Delivery-P, #69697B);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 218.75% */
+text-decoration: none;
+}
+.one-2{
+  list-style-type:none ;
+}
